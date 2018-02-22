@@ -46,7 +46,7 @@ public class MatrixSetZeroForAllRowsColumns {
                 matrix[i][0] = 0;
         }
     }
-	
+
 	   public  void printMatrix(int mat[ ][ ], int R, int C)
 	    {
 	        int i, j;
@@ -59,17 +59,19 @@ public class MatrixSetZeroForAllRowsColumns {
 	            System.out.println();
 	        }
 	    }
-	
+
 	public static void main(String[] args) {
 		 int mat[][] = {{1, 5, 7, 2},
 	                {2, 0, 7, 3},
 	                {1, 8, 5, 0}};
-		 
+
 		 MatrixSetZeroForAllRowsColumns m = new MatrixSetZeroForAllRowsColumns();
 		 m.printMatrix(mat, 3, 4);
 		 m.setZeroes(mat);
 		  System.out.println();
 		  System.out.println();
 		 m.printMatrix(mat, 3, 4);
+		 system.out.println();
 	}
+
 }
